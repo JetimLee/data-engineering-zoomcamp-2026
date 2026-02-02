@@ -12,12 +12,12 @@ concurrency:
 
 variables:
   welcome_message: "Hello, {{ inputs.name }}!"
-  
+
 tasks:
   - id: hello_message
     type: io.kestra.plugin.core.log.Log
     message: "{{ render(vars.welcome_message) }}"
-  
+
   - id: generate_output
     type: io.kestra.plugin.core.debug.Return
     format: I was generated during this workflow.
@@ -37,7 +37,7 @@ tasks:
 pluginDefaults:
   - type: io.kestra.plugin.core.log.Log
     values:
-      level: ERROR
+      level: INFO
 
 triggers:
   - id: schedule
