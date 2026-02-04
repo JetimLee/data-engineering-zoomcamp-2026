@@ -20,3 +20,4 @@ serving_dir
 # local python tooling
 .venv/
 .python-version
+*.duckdb
