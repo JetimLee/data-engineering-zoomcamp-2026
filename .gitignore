@@ -21,3 +21,10 @@ serving_dir
 .venv/
 .python-version
 *.duckdb
+
+.bruin.yml
+logs/runs
+logs/*.log
+__pycache__/
+*.py[cod]
+logs/queries
