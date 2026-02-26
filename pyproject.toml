@@ -19,4 +19,5 @@ dev = [
 [tool.uv.workspace]
 members = [
     "01-docker-terraform/docker-sql",
+    "spark-module",
 ]
