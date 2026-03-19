@@ -32,5 +32,4 @@ logs/queries
 .claude/
 extras/
 theory/
-07-streaming/workshop/
 *.crc
